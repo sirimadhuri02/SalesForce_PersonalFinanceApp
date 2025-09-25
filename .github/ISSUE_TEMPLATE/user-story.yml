@@ -1,0 +1,50 @@
+name: User Story
+description: Propose a new feature or enhancement for the project.
+title: "[Story]: "
+labels:
+  - 'user-story'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### As a [role], I want to [goal], so that [reason].
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: What must be true for this user story to be considered complete?
+      placeholder: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation-notes
+    attributes:
+      label: Implementation Notes
+      description: Optional technical details, design notes, or dependencies.
+
+  - type: dropdown
+    id: story-points
+    attributes:
+      label: Story Points
+      description: An estimate of the effort required.
+      options:
+        - '1'
+        - '2'
+        - '3'
+        - '5'
+        - '8'
+        - '13'
+    validations:
+      required: false
+
+  - type: input
+    id: stakeholder
+    attributes:
+      label: Stakeholder
+      description: Who requested this feature or is impacted by it?
+    validations:
+      required: false
