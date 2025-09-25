@@ -1,0 +1,10 @@
+{
+  "orgName": "PFM Scratch",
+  "edition": "Developer",
+  "features": ["Communities", "ShadowAccountAndInsights"],
+  "settings": {
+    "orgPreferenceSettings": {
+      "s1DesktopEnabled": true
+    }
+  }
+}
