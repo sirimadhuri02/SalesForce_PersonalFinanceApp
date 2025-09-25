@@ -1,0 +1,21 @@
+Project: Salesforce Personal Finance Manager (PFM)
+
+Problem:
+Individuals lack a single, Salesforce-powered solution to track incomes, expenses, recurring bills, budgets and savings goals with timely insights. 
+Many users struggle to categorize transactions, forecast cashflow, and receive simple actionable advice.
+
+Solution Summary:
+PFM is a Salesforce app that:
+- Captures transactions (manual & CSV import)
+- Tracks accounts, budgets, recurring bills, and goals
+- Provides dashboards for cashflow and savings progress
+- Sends notifications for low balance / upcoming bills
+- Offers an AI chatbot to answer "Where can I reduce spend?" and "How much can I save monthly?"
+
+Phase 1 Deliverables (in repo under docs/phase-1):
+- Requirement gathering (stakeholder-analysis.md)
+- Business process map (business-process-map.md)
+- Use cases (use-cases.md)
+- AppExchange exploration notes (app-exchange-research.md)
+
+Author: <V Siri Madhuri>
